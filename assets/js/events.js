@@ -36,11 +36,6 @@ function updateSeletedMenu(menu) {
   $this.addClass(className.selected);
 }
 
-$(element.nav.source).on('click', element.menu, function(event) {
-  event.preventDefault();
-  updateSeletedMenu($(this))
-  updateFilter(attribute);
-});
 
 $(function() {
   $('.js-load-image').lazy();
